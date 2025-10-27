@@ -64,6 +64,6 @@ Citations & contact
 --------------------
 Citation details forthcoming. 
 
-License
--------
-No license file is included. Check with the project owner before re-using or redistributing code or data from this repository.
+Contact: rptkiddle@gmail.com
+
+
