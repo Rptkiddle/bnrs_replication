@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+env.bak/
+venv.bak/
+
+# Local environment variables / secrets
+.env
+.env.*
+.secrets
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs and runtime files
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Notebook output and checkpoints
+/.ipynb_checkpoints
+
+# Python profiler
+prof/
+
+# Ignore dataset caches and large Arrow files used by Hugging Face in the algorithm folder
+bnrs_algorithm/data/rjac___all-the-news-2-1-component-one/
+bnrs_algorithm/data/**/*.arrow
+bnrs_algorithm/data/**/cache-*.arrow
+bnrs_algorithm/data/*.lock
+
