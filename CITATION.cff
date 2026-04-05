@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Bisociative Pivoting as a Method for Moderating User Response to Text Similarity in Next-item News Recommendation"
+type: software
+authors:
+  - family-names: Kiddle
+    given-names: Rupert
+    orcid: "https://orcid.org/0000-0002-5353-2014"
+    affiliation: "Vrije Universiteit Amsterdam"
+  - family-names: Welbers
+    given-names: Kasper
+    orcid: "https://orcid.org/0000-0003-2929-3815"
+    affiliation: "Vrije Universiteit Amsterdam"
+  - family-names: Kroon
+    given-names: Anne
+    orcid: "https://orcid.org/0000-0001-7600-7979"
+    affiliation: "University of Amsterdam"
+  - family-names: Trilling
+    given-names: Damian
+    orcid: "https://orcid.org/0000-0002-2586-0352"
+    affiliation: "Vrije Universiteit Amsterdam"
+license: MIT
+repository-code: "https://github.com/Rptkiddle/bnrs_replication"
+preferred-citation:
+  type: article
+  title: "Bisociative Pivoting as a Method for Moderating User Response to Text Similarity in Next-item News Recommendation"
+  authors:
+    - family-names: Kiddle
+      given-names: Rupert
+    - family-names: Welbers
+      given-names: Kasper
+    - family-names: Kroon
+      given-names: Anne
+    - family-names: Trilling
+      given-names: Damian
+  journal: "ACM Transactions on Recommender Systems"
+  year: 2026

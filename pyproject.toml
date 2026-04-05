@@ -1,0 +1,44 @@
+[project]
+name = "bnrs-replication"
+version = "1.0.0"
+description = "Replication materials for 'Bisociative Pivoting as a Method for Moderating User Response to Text Similarity in Next-item News Recommendation'"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11,<3.12"
+authors = [
+    { name = "Rupert Kiddle", email = "rptkiddle@gmail.com" },
+    { name = "Kasper Welbers" },
+    { name = "Anne Kroon" },
+    { name = "Damian Trilling" },
+]
+
+dependencies = [
+    "numpy>=2.3,<3",
+    "pandas>=2.3,<3",
+    "scikit-learn>=1.7,<2",
+]
+
+[project.optional-dependencies]
+algorithm = [
+    "torch>=2.9,<3",
+    "sentence-transformers>=5.1,<6",
+    "keybert>=0.9,<1",
+    "keyphrase-vectorizers>=0.0.13,<0.1",
+    "spacy>=3.8,<4",
+    "datasets>=4.2,<5",
+    "networkx>=3.5,<4",
+    "tqdm>=4.67,<5",
+    "nltk>=3.9,<4",
+]
+analysis = [
+    "rpy2>=3.6,<4",
+    "matplotlib>=3.10,<4",
+    "seaborn>=0.13,<1",
+    "tabulate>=0.9,<1",
+    "scipy>=1.16,<2",
+    "statsmodels>=0.14,<1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
